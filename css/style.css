@@ -1,0 +1,152 @@
+/* THIS IS THE START OF CSS DO NOT EDIT THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
+/* THIS WILL MESS UP THE DESIGN AND LAYOUT OF SITE */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../img/bg.jpg");
+    font-family: 'Ruda', sans-serif;
+}
+/* THIS CONTROLS DOTTED OVERLAY */
+.overlay {
+    background: rgba(0, 0, 0, 0.45) url(../img/overlay.png) repeat;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+/* LOGO CSS */
+.logo-content {
+    text-align: center;
+    padding-top: 4%;
+    margin: 0 34%;
+}
+.logo-content img {
+    width: 80%;
+    height: auto;
+    padding-bottom: 10%;
+}
+/* Header-Text CSs */
+.Header-Text {
+    margin-top: -1%;
+    color: #D7EFFF;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+/* BUTTONS CSS */
+.content .button2 {
+    background: rgba(0, 0, 0, 0.562);
+}
+.button2p {
+    text-align: center;
+}
+.button2 {
+    cursor: default;
+    padding: 16px 30px;
+    border: 3px solid white;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    z-index: 999999;
+    margin-right: 15px;
+
+}
+a.button2:before,
+a.button2:after {
+    content: " ";
+    transition: all ease 0.3s;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: #56d83571;
+    z-index: -1;
+}
+
+a.button2:after {
+    right: 0;
+    left: auto;
+}
+
+a.button2:hover::before,
+a.button2:hover::after {
+    width: 50%;
+}
+/* START OF ICON BUTTONS */
+.button-wrap {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.356);
+}
+.buttonbox {
+    margin: 1% 5% 1% 5%;
+    padding: 10px 40px 0px 40px;
+    border-radius: 25px;
+}
+.buttonbox img {
+    transition: all .2s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+}
+.buttonbox img:hover {
+    transform: scale(1.3);
+}
+.button2p button{
+    background: rgb(10, 190, 245);
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    z-index: 10000;
+    box-shadow: 2px 2px 3px black;
+}
+.button2p button:hover{
+    background: rgb(123, 207, 233);
+    cursor: pointer;
+}
+.button-text {
+    text-align: center;
+    color: #D7EFFF;
+    font-size: 280%;
+    text-shadow: 1px 3px 20px black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* COPY CSS */
+.js-emailcopybtn{
+    background: transparent;
+    color: white;
+    padding: 20px;
+    z-index: 200;
+   font-size: 11=00%;
+    border-radius: 3px;
+    background: blue;
+}
+/* COPY RIGHT CSS */
+.cp {
+    color: rgba(255, 255, 255, 0.568);
+    justify-content: space-between;
+    padding-left: 4%;
+    letter-spacing: 2px;
+    display: flex;
+}
+.cp p:nth-child(2) {
+    padding-right: 5%;
+}
+.cp p:nth-child(2):hover {
+    color: aliceblue;
+}
